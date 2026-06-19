@@ -4,7 +4,7 @@
 
 ![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react) ![Express](https://img.shields.io/badge/Express-4.18-90C53F?logo=express) ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js) ![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?logo=vite)
 
-## 📋 Overview
+## Overview
 
 Campus Connect is a full-stack social network designed specifically for university students. Similar to Reddit, Threads, and Discord, it enables seamless sharing of academic resources, collaboration, and community engagement through a modern, intuitive interface.
 
@@ -12,7 +12,7 @@ Campus Connect is a full-stack social network designed specifically for universi
 
 ---
 
-## ✨ Features
+## Features
 
 - **User Authentication**: Secure registration and login with JWT-based authentication
 - **Post Management**: Create, read, update, and delete posts with categories (Notes, Events, Assignments, Questions)
@@ -26,7 +26,7 @@ Campus Connect is a full-stack social network designed specifically for universi
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React** 18.2 - UI library with hooks
@@ -43,7 +43,7 @@ Campus Connect is a full-stack social network designed specifically for universi
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 16+ installed
@@ -75,7 +75,7 @@ Frontend runs on `http://localhost:5173`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Campus Connect/
@@ -105,7 +105,7 @@ Campus Connect/
 
 ---
 
-## 🔗 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Create new user account
@@ -134,7 +134,7 @@ Campus Connect/
 
 ---
 
-## 🎨 Design System
+## Design System
 
 - **Accent Color**: Purple (`#7c3aed`) - Primary action and highlights
 - **Background**: Light Gray (`#f5f7fa`) - Main background
@@ -144,7 +144,7 @@ Campus Connect/
 
 ---
 
-## 📝 Sample Users
+## Sample Users
 
 The app comes with pre-populated sample data:
 
@@ -157,7 +157,7 @@ The app comes with pre-populated sample data:
 
 ---
 
-## 🔐 Security Notes
+## Security Notes
 
 - JWT secret is hardcoded for development (`campus-secret`)
 - Passwords are hashed using bcryptjs
@@ -166,7 +166,7 @@ The app comes with pre-populated sample data:
 
 ---
 
-## 📱 Pages
+## Pages
 
 1. **Home** - Feed of all posts with sorting options
 2. **Profile** - User profile with stats and posts
@@ -180,7 +180,7 @@ The app comes with pre-populated sample data:
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 The project can be deployed to services like:
 - **Frontend**: Vercel, Netlify, GitHub Pages
@@ -193,22 +193,22 @@ Remember to:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Built as CodeAlpha Task 2: Social Media Platform
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork, make improvements, and submit pull requests.
 
 ---
 
-**Made with ❤️ for university students** 🎓
+**Made for university students**

@@ -2,7 +2,7 @@
 
 Express.js REST API server for Campus Connect social platform.
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 npm install
@@ -11,7 +11,7 @@ npm run dev
 
 API server runs on `http://localhost:4000`
 
-## 📋 Project Structure
+## Project Structure
 
 ```
 backend/
@@ -40,7 +40,7 @@ backend/
 └── package.json
 ```
 
-## 🔗 API Endpoints
+## API Endpoints
 
 ### Auth Routes
 | Method | Endpoint | Description |
@@ -77,7 +77,7 @@ backend/
 | POST | `/api/follow/:userId` | Follow user |
 | DELETE | `/api/follow/:userId` | Unfollow user |
 
-## 🔐 Authentication
+## Authentication
 
 Uses JWT (JSON Web Tokens) with Bearer tokens:
 
@@ -87,7 +87,7 @@ Authorization: Bearer <token>
 
 Tokens are returned on successful login and stored in frontend localStorage.
 
-## 📦 Dependencies
+## Dependencies
 
 - **express** - Web framework
 - **cors** - Cross-origin requests
@@ -96,11 +96,11 @@ Tokens are returned on successful login and stored in frontend localStorage.
 - **fs-extra** - File system utilities
 - **nodemon** - Auto-restart on file changes
 
-## ⚙️ Environment
+## Environment
 
 Runs on port `4000` with CORS enabled for `localhost:5173`
 
-## 🗄️ Data Storage
+## Data Storage
 
 Uses JSON file (`data.json`) for persistence:
 - Users

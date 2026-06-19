@@ -2,7 +2,7 @@
 
 React + Vite UI for Campus Connect social platform.
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 npm install
@@ -11,7 +11,7 @@ npm run dev
 
 Frontend runs on `http://localhost:5173`
 
-## 📋 Project Structure
+## Project Structure
 
 ```
 frontend/
@@ -51,7 +51,7 @@ frontend/
 └── vite.config.js         # Vite configuration
 ```
 
-## 🎨 Design System
+## Design System
 
 - **Color Scheme**
   - Accent: Purple (`#7c3aed`) - Primary actions
@@ -72,7 +72,7 @@ frontend/
   - Smooth transitions (150-200ms)
   - Responsive design for mobile
 
-## 📱 Pages
+## Pages
 
 | Page | Route | Description |
 |------|-------|-------------|
@@ -86,7 +86,7 @@ frontend/
 | Search | `/search` | Find users & posts |
 | Notifications | `/notifications` | Notification center |
 
-## 🔄 State Management
+## State Management
 
 Uses **React Context API** for authentication:
 
@@ -96,7 +96,7 @@ const { user, register, login, logout } = useAuth()
 
 Persists to localStorage for session management.
 
-## 📡 API Integration
+## API Integration
 
 Centralized API client in `src/services/api.js`:
 
@@ -108,24 +108,24 @@ const user = await api.auth.login(username, password)
 
 Auto-injects JWT bearer tokens in headers.
 
-## 📦 Dependencies
+## Dependencies
 
 - **react** - UI library
 - **react-router-dom** - Client-side routing
 - **vite** - Build tool & dev server
 
-## 🛠️ Scripts
+## Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 
-## 🎯 Features
+## Features
 
-✅ Responsive design (mobile-first)
-✅ Client-side routing with React Router
-✅ Global auth state with Context API
-✅ Real-time updates from backend
-✅ Form validation and error handling
-✅ Smooth animations and transitions
-✅ Clean, modern UI following design system
+- Responsive design (mobile-first)
+- Client-side routing with React Router
+- Global auth state with Context API
+- Real-time updates from backend
+- Form validation and error handling
+- Smooth animations and transitions
+- Clean, modern UI following design system
