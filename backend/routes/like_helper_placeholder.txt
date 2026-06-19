@@ -1,0 +1,1 @@
+To support liking via POST /api/posts/:id/like, backend currently does not have a dedicated route file. The postsController exposes toggleLike but route needs wiring. Update server routes if needed.

@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "priya_sharma",
+      "name": "Priya Sharma",
+      "password": "$2a$10$fakehashdontuse",
+      "avatar": "/avatars/alice.svg",
+      "bio": "3rd year Computer Science. Passionate about web development and AI.",
+      "department": "Computer Science",
+      "semester": "5",
+      "joined": "2026-06-19T18:44:29.608Z",
+      "followers": [],
+      "following": []
+    },
+    {
+      "id": 2,
+      "username": "arjun_patel",
+      "name": "Arjun Patel",
+      "password": "$2a$10$fakehash2",
+      "avatar": "/avatars/ben.svg",
+      "bio": "Mathematics and Physics enthusiast. Active in campus activities.",
+      "department": "Physics",
+      "semester": "4",
+      "joined": "2026-06-19T18:44:29.608Z",
+      "followers": [],
+      "following": []
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "authorId": 1,
+      "title": "DSA Interview Prep - Linked Lists Simplified",
+      "body": "Just finished a detailed guide on linked list problems. Covers insertion, deletion, and cycle detection. Perfect for placements. Check the resources section!",
+      "category": "Notes",
+      "likes": [
+        2
+      ],
+      "comments": [
+        1
+      ],
+      "createdAt": "2026-06-19T18:44:29.608Z"
+    },
+    {
+      "id": 2,
+      "authorId": 2,
+      "title": "Hackathon happening this Friday at IIT Campus",
+      "body": "Registration is open for the annual coding hackathon. Prize pool of 2 lakhs! Teams of 3-4 members welcome. Meet at seminar hall 4pm Friday.",
+      "category": "Events",
+      "likes": [],
+      "comments": [],
+      "resources": [],
+      "createdAt": "2026-06-19T18:44:29.608Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "authorId": 2,
+      "text": "Bhaiya, this is perfect for interview prep! Thanks for sharing!",
+      "createdAt": "2026-06-19T18:44:29.608Z"
+    }
+  ],
+  "sessions": []
+}
